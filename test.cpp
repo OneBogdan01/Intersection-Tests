@@ -13,7 +13,6 @@ TEST(SphereIntersection, TouchingSphereInOnePoint)
 	sphere.Hit(ray);
 	
 	ASSERT_EQ(ray.t, 5);
-
 }
 TEST(SphereIntersection, TouchingSphereInTwoPoints)
 {
