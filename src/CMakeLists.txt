@@ -9,12 +9,11 @@ if(MSVC)
 endif()
 
 set( INC_FILES
-	Cell.hpp
-
+	Shapes.h
 )
 
 set( SRC_FILES 
-    Cell.cpp
+    Shapes.cpp
 )
 set (ALL_FILES ${INC_FILES} ${SRC_FILES})
 
