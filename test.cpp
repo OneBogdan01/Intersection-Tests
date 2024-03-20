@@ -2,7 +2,7 @@
 #include "Cell.hpp"
 
 
-TEST(Biology, helloWorld)
+TEST(SphereIntersection, Intersections)
 {
 	const Cell cell;
 	ASSERT_EQ(cell, cell);
